@@ -1,4 +1,4 @@
-# MiniGPT-Java — Deep Explanation (Interview Prep)
+# MiniGPT-Java — Deep Explanation
 
 > A complete reference for confidently explaining every aspect of the project.
 
