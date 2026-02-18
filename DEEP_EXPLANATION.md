@@ -1,7 +1,5 @@
 # MiniGPT-Java — Deep Explanation
 
-> A complete reference for confidently explaining every aspect of the project.
-
 ---
 
 ## Table of Contents
