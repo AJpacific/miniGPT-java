@@ -921,14 +921,3 @@ Step 20000: loss 0.85  (refining predictions)
 Step 30000: loss 0.79  (final, perplexity ~2.2)
 ```
 
-### Interview Questions You Might Face
-
-| Question | Key Answer |
-|---|---|
-| "What is self-attention?" | Each token computes a weighted sum of all previous tokens' representations, where weights are based on query-key similarity. |
-| "Why causal masking?" | Prevents the model from seeing future tokens during training, matching the autoregressive generation scenario. |
-| "What does temperature do?" | Scales logits before softmax. Lower = more deterministic. Higher = more random. |
-| "Why weight tying?" | Saves parameters and enforces consistency between how the model represents tokens and how it predicts them. |
-| "Why not just use CPU?" | GPU parallelism. Matrix multiplications (the core of Transformers) are 10-100× faster on GPU. |
-| "What would you improve first?" | BPE tokenizer — it would instantly give the model 5× more context per forward pass. |
-| "How is this different from ChatGPT?" | Same architecture fundamentals, but 300,000× smaller, no instruction tuning, no RLHF, character-level instead of BPE. |
