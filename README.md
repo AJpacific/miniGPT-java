@@ -114,7 +114,3 @@ top_k        = 30       # Top-k sampling
 - PyTorch 2.10.0 + CUDA 12.8
 - Mixed precision fp16
 - AdamW optimizer with gradient clipping
-
-## License
-
-MIT
